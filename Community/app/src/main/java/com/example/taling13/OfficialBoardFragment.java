@@ -62,7 +62,7 @@ public class OfficialBoardFragment extends Fragment {
         // BoardActivity에서 ID를 Bundle로 가져오기.
         Bundle bundle = getArguments();
         loginId = bundle.getString("id");
-
+// 깃허브 테스트
 
         db.collection("공지 사항").get().addOnCompleteListener(new OnCompleteListener<QuerySnapshot>() {
             @Override
