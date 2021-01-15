@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:orientation="vertical">
+
+        <ScrollView
+            android:id="@+id/scrollVIew"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <CheckBox
+                    android:id="@+id/cb_officialboard"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="board1" />
+
+                <CheckBox
+                    android:id="@+id/cb_freeBoard"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="board2" />
+
+                <CheckBox
+                    android:id="@+id/cb_eventBoard"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="board3" />
+            </LinearLayout>
+        </ScrollView>
+
+    </LinearLayout>
+
+</LinearLayout>
